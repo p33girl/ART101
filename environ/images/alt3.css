@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Syne:wght@400;700&display=swap');
+
+body {
+    background-color: #121019; /* Deep midnight plum/black */
+    color: #e0d6eb;            /* Soft ghostly lavender text */
+    font-family: 'Special Elite', monospace;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #3d2c54;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Syne', sans-serif;
+    color: #b19cd9;            /* Pale mystical purple */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 10px rgba(177, 156, 217, 0.4); /* Soft glowing header effect */
+}
+
+/* Semi-transparent dark cards for content */
+p {
+    background-color: #1c1824;
+    border: 1px solid #4a3863;
+    padding: 18px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Photo with a glowing mystical frame */
+img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 30px auto;
+    background: #1c1824;
+    padding: 10px;
+    border: 2px solid #b19cd9;
+    box-shadow: 0px 0px 15px rgba(177, 156, 217, 0.2);
+}
+
+/* Links */
+ol {
+    background-color: #1c1824;
+    border: 1px solid #4a3863;
+    padding: 20px 40px;
+}
+
+a {
+    color: #ffb6c1; /* Soft pastel pink link */
+    text-decoration: none;
+    border-bottom: 1px dotted #ffb6c1;
+}
+
+a:hover {
+    color: #b19cd9;
+    background-color: #2b2238;
+}

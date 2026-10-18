@@ -1,0 +1,95 @@
+/* Import a jagged marker font and a clean typewriter font */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Special+Elite&display=swap');
+
+body {
+    /* A gritty off-white grid or paper background color */
+    background-color: #e8e5df; 
+    color: #111111;
+    font-family: 'Special Elite', monospace; /* Looks like a vintage typewriter */
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    
+    /* Adds a subtle repeating paper/grid texture feel */
+    background-image: linear-gradient(#dcd8d0 1px, transparent 1px), linear-gradient(90deg, #dcd8d0 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+/* Headings look like hand-scrawled marker notes */
+h1, h2, h3, h4, h5 {
+    font-family: 'Permanent Marker', cursive;
+    color: #111111;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    background: #ffcc00; /* Pick your color here! Bright yellow title block */
+    padding: 10px;
+    border: 3px solid #111;
+    box-shadow: 4px 4px 0px #111;
+    transform: rotate(-1.5deg); /* Slight playful tilt */
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+/* Turning your text sections into individual 'polaroid' or 'magazine clipping' boxes */
+p {
+    background-color: #ffffff;
+    border: 2px solid #111;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    box-shadow: 6px 6px 0px #ff6699; /* Pick your accent shadow color here! (e.g., hot pink) */
+    position: relative;
+}
+
+/* A fun trick: adding a simulated 'tape' effect at the top of text boxes */
+p::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px dashed #666;
+}
+
+/* Image container styled like a physical photo print */
+img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 10px 10px 35px 10px; /* Extra padding at bottom for a Polaroid frame look */
+    border: 2px solid #111;
+    box-shadow: 5px 5px 0px #111;
+    transform: rotate(2deg); /* Tilts the photo the other way */
+}
+
+/* Links box styled distinctly */
+ol {
+    background-color: #ffffff;
+    border: 3px dashed #111;
+    padding: 20px 40px;
+    box-shadow: 6px 6px 0px #111;
+}
+
+a {
+    color: #cc0033; /* Pick your link color */
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffee00;
+    padding: 2px 5px;
+}
+
+a:hover {
+    background-color: #111;
+    color: #fff;
+}

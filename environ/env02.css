@@ -1,0 +1,58 @@
+
+HTML 
+{ background-color: #eee6a5;
+}
+
+
+.album-title {
+ display: block;
+ width: 100%;
+ max-width: 120vh;
+ margin: 3px auto;
+ padding-top: 20px;
+
+}
+
+.artist-name { 
+font-family: 'Input Serif Narrow', 'Courier Prime', serif;
+font-weight: 700;
+font-size: 3.3rem;
+text-transform: uppercase;
+letter-spacing: -0.05em;
+transform: scaleY(1.55);
+text-align:center;
+margin-bottom: 70px;
+margin-top: 50px;
+text-shadow: 1px 1px 0.5px rgba(189, 178, 141, 0.861);
+}
+
+.release-date {
+font-family: 'Input Serif Narrow', 'Courier Prime', serif;
+font-weight: 500;
+font-size: 1.4rem;
+color: rgb(114, 3, 3);
+text-shadow: 0.6px 0.6px 2px rgba(187, 149, 91, 0.847);
+text-transform: uppercase;
+letter-spacing: 0.07em;
+transform: scaleY(1.35);
+display: inline-block;
+margin-left: 65px;
+margin-bottom: 20px;
+margin-top: 50px;
+}
+
+.track-list {
+    font-family: 'Special Elite', 'Courier New', monospace;
+    font-weight: 150;
+    font-style: italic;
+    font-size: 1.18rem;
+    line-height: 2.9;
+    color: #4b0101;
+    text-shadow: 0.6px 0.6px 1px rgba(212, 11, 11, 0.865);
+    margin-left: 70px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+
+

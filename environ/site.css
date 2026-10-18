@@ -1,0 +1,98 @@
+body {
+    background: #ff7ab8;
+    padding: 50px;
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 { color: #ffeb0c;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+}
+
+h1 { font-size: 65px;
+    color: #ffeb0c;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+    text-align: center;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+    background-color: #6f2e71;
+    padding: 11px;
+    border: 6.5px solid #ffeb0c;
+    border-style: double;
+    transform: scaleY(1.15);
+    letter-spacing: 0.01em;
+    margin: 0.9px;
+}
+
+h3 { font-size: 45px;
+    margin-bottom: 28px;
+    text-align: center;
+   letter-spacing: 0.1em;
+    transform: scaleY(1.2);
+    text-shadow: 3px 3px 3px rgb(255, 110, 185);
+    margin-top: 80px;
+    
+}
+
+h2 { font-size: 20.5px; 
+text-shadow: 1px 1px 1px rgb(0, 0, 0);
+margin: 0px;
+text-align:center;
+}
+
+h4 { font-size: 15px;
+    margin-bottom: 27px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+h5 { font-size: 23px; 
+text-shadow: 1.5px 1.5px 1.5px rgb(0, 0, 0);
+}
+
+body {
+color:rgb(248, 248, 248);
+font-family: Georgia, serif; 
+letter-spacing: -0.05em;
+}
+
+
+.mypicture {
+    
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin: 30px auto;
+    background: #fda6c0bb;
+    padding: 9px 9px 30px 8px;
+    border: 1px solid #000000;
+    box-shadow: 6px 6px 4px #1a1a1a;
+    
+}
+
+
+p {
+    background-color: rgba(0, 0, 0, 0.648); 
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 1.5px solid #fdfbfd;
+    border-width: 3px;
+    border-radius: 3px;
+    letter-spacing: -0.05em;
+    border-style: dotted;
+    line-height: 20px;
+    font-size: 16px;
+    
+}
+
+ol { color: black;
+    background-color: rgba(253, 242, 251, 0.85);
+    padding: 12px 40px;
+    border: 2px solid #111;
+    border-radius: 4px;
+    letter-spacing: -0.0em;
+    border-style: solid;
+    line-height: 22px;
+    font-size: 14px;
+}
