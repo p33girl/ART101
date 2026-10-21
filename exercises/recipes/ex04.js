@@ -7,3 +7,4 @@ $("#needy-button").click( function(){
 count = count + 1 / 10;
 $("#needy-button").html( count + " times you didn't listen to me");
 });
+

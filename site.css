@@ -1,6 +1,72 @@
 
 body { padding: 50px; }
 
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: rgba(255, 253, 237, 0.057);
+    padding: 60px;
+    padding-top: 85px;
+    padding-bottom: 90px;
+    border: 2px solid #ffd9f453;
+    border-style:dotted;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+}
+
+#introduction {
+    background: rgba(0, 0, 0, 0); 
+    padding: 20px;  
+    flex: 2;
+}
+
+#introduction h2 {
+    font-style: italic;
+    margin-top: 0;
+}
+
+#introduction p {
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+.profile {
+    text-align: center;
+    flex: 1;
+}
+
+.profile img { inherits: inherit;
+}
+
+.profile p {
+    font-size: 90%;
+}
+
+.navigation {
+    background: #fff7e800;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.navigation h2 {
+    margin-top: 0;
+}
+
+.navigation li {
+    margin-bottom: 8px;
+}
+
+.navigation a {
+    color: #ff00bf;
+    font-weight: bold;
+}
+
 h1,
 h2,
 h3,
@@ -13,7 +79,7 @@ h6 { color: #ffeb0c;
 h1 { font-size: 65px; 
     text-align: center;
     text-shadow: 3px 1px 3px rgb(0, 0, 0);
-    background-color: #6f2e71f4;
+    background-color: #6f2e71e8;
     padding: 11px;
     border: 6.5px solid #ffeb0c;
     border-style: double;
@@ -28,13 +94,13 @@ margin: 0px;
 text-align:center;
     }
 
-h3 { font-size: 55px;
-    margin-bottom: 28px;
+h3 { font-size: 60px;
+    margin-bottom: 80px;
     text-align: center;
-   letter-spacing: 0.1em;
+   letter-spacing: 0.15em;
     transform: scaleY(1.2);
-    text-shadow: 4px 4px 4px rgb(255, 123, 191);
-    margin-top: 110px;    
+    text-shadow: 4px 4px 4px rgb(251, 65, 161);
+    margin-top: 100px;    
     }
 
 h4 { font-size: 15px;
@@ -44,7 +110,7 @@ h4 { font-size: 15px;
 
 h5 { font-size: 35px; 
     text-shadow: 3px 1px 3px rgb(0, 0, 0);
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
     }
@@ -66,10 +132,11 @@ body {
   width: 100%;
   max-width: 390px;
   margin: 20px auto;
-  background: #ffc0d3c0;
+  background: #fca1d1c0;
   padding: 13px 9px 55px 9px;
   border: 1px solid #000000;
   box-shadow: 6px 6px 6px #1a1a1a;
+  margin-bottom: 90px;
 }
 
 .poem-container {
