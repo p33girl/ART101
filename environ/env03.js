@@ -22,12 +22,12 @@ let mainEntity = {
 $(document).ready(function() {
 
     
-    $("#btn-title").click(function() {
+    $("#title").click(function() {
         $("#environment-output").html(`<strong>Environment:</strong> ${environmentTitle} (${anniversaryDate})`);
     });
 
    
-    $("#btn-elements").click(function() {
+    $("#elements").click(function() {
         let listHtml = "<strong>YOU</strong><ul>";
         for (let i = 0; i < atmosphericElements.length; i++) {
             listHtml += `<li>${atmosphericElements[i]}</li>`;
@@ -37,12 +37,12 @@ $(document).ready(function() {
     });
 
     
-    $("#btn-entity").click(function() {
+    $("#entity").click(function() {
         $("#environment-output").html(`<strong>Entity:</strong> ${mainEntity.name} — ${mainEntity.mood}. "${mainEntity.message}"`);
     });
 
     
-    $("#btn-counter").click(function() {
+    $("#counter").click(function() {
         clickCount++;
         $("#environment-output").html(`You have interacted with the spirit <strong>${clickCount}</strong> time(s).`);
     });
