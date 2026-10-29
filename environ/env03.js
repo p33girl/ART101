@@ -12,7 +12,7 @@ let atmosphericElements = [
 
 
 let mainEntity = {
-    name: "The Loved One",
+    name: "Loved One",
     type: "Spirit / Memory",
     mood: "sorrowful and familiar",
     message: "It can't speak. He wants you to know he misses you too."
